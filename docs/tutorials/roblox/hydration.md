@@ -78,7 +78,7 @@ changes will be applied immediately:
 ```Lua
 local message = scope:Value("Loading...")
 
-scope:Hydrate(PlayerGui.LoadingText) {
+scope:Hydrate(PlayerGui.Message) {
 	Text = message
 }
 
